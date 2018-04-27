@@ -7,7 +7,7 @@
 注意配置文件：
 
 
-ext {
+    ext {
     android = [
             compileSdkVersion: 26,
             buildToolsVersion: "26.1.0",
@@ -16,7 +16,7 @@ ext {
             targetSdkVersion : 26,
             versionCode      : 2,
             versionName      : "1.0.1"
-    ]
+     ]
 
     dependencies = [
             "support-v7"            : "com.android.support:appcompat-v7:26.1.0",
@@ -94,6 +94,6 @@ ext {
             "facebook-ads"          : 'com.facebook.android:audience-network-sdk:4.+',
             "facebook-ays"          : 'com.facebook.android:facebook-android-sdk:4.31.0',
             "multidex"              : 'com.android.support:multidex:+',
-    ]
+          ]
 
-}
+            }
